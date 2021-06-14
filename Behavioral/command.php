@@ -70,7 +70,7 @@ abstract class WebScrapingCommand implements Command
         return $html;
     }
 
-    abstract public function parse(string $html): void
+    abstract public function parse(string $html): void;
 
     function complete(): void
     {
